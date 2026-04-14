@@ -32,7 +32,9 @@ ALLOWED_ORIGINS = [
     "http://127.0.0.1:8080",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://torexstore-production.up.railway.app"
+    "https://torexstore-production.up.railway.app",
+    "https://torexstore.netlify.app",
+    "https://torexstore.uz"
 ]
 
 app.add_middleware(
