@@ -1,0 +1,211 @@
+[
+  {
+    "appId": "vault-sync",
+    "version": "3.2.0",
+    "releaseDate": "2026-03-20",
+    "fileSize": "28.4 MB",
+    "minAndroid": "8.0",
+    "changelog": "• New sharing interface\n• Improved sync speed by 40%\n• Bug fixes for Android 14",
+    "filePath": "",
+    "downloadCount": 12400,
+    "isLatest": true
+  },
+  {
+    "appId": "vault-sync",
+    "version": "3.1.0",
+    "releaseDate": "2026-02-15",
+    "fileSize": "27.8 MB",
+    "minAndroid": "8.0",
+    "changelog": "• Dark mode support\n• File preview improvements\n• Stability fixes",
+    "filePath": "",
+    "downloadCount": 31200,
+    "isLatest": false
+  },
+  {
+    "appId": "vault-sync",
+    "version": "3.0.5",
+    "releaseDate": "2026-01-10",
+    "fileSize": "27.2 MB",
+    "minAndroid": "7.0",
+    "changelog": "• Hotfix for upload failures\n• Memory optimization",
+    "filePath": "",
+    "downloadCount": 8900,
+    "isLatest": false
+  },
+  {
+    "appId": "signal-vpn",
+    "version": "6.0.0",
+    "releaseDate": "2026-04-01",
+    "fileSize": "22.1 MB",
+    "minAndroid": "8.0",
+    "changelog": "• New WireGuard protocol\n• 10 new server locations\n• Performance improvements",
+    "filePath": "",
+    "downloadCount": 28500,
+    "isLatest": true
+  },
+  {
+    "appId": "signal-vpn",
+    "version": "5.8.0",
+    "releaseDate": "2026-02-10",
+    "fileSize": "21.5 MB",
+    "minAndroid": "8.0",
+    "changelog": "• Split tunneling improvements\n• Bug fixes",
+    "filePath": "",
+    "downloadCount": 15700,
+    "isLatest": false
+  },
+  {
+    "appId": "code-editor-pro",
+    "version": "2.5.0",
+    "releaseDate": "2026-02-28",
+    "fileSize": "35.2 MB",
+    "minAndroid": "9.0",
+    "changelog": "• Git integration\n• New themes\n• Performance boost",
+    "filePath": "",
+    "downloadCount": 18200,
+    "isLatest": true
+  },
+  {
+    "appId": "code-editor-pro",
+    "version": "2.4.0",
+    "releaseDate": "2026-01-15",
+    "fileSize": "34.1 MB",
+    "minAndroid": "9.0",
+    "changelog": "• LSP support\n• Auto-indentation fixes",
+    "filePath": "",
+    "downloadCount": 12400,
+    "isLatest": false
+  },
+  {
+    "appId": "task-flow",
+    "version": "4.1.0",
+    "releaseDate": "2026-03-15",
+    "fileSize": "18.3 MB",
+    "minAndroid": "8.0",
+    "changelog": "• AI scheduling improvements\n• Calendar integration\n• Widget updates",
+    "filePath": "",
+    "downloadCount": 22100,
+    "isLatest": true
+  },
+  {
+    "appId": "task-flow",
+    "version": "4.0.0",
+    "releaseDate": "2026-01-20",
+    "fileSize": "17.9 MB",
+    "minAndroid": "8.0",
+    "changelog": "• Major UI redesign\n• New AI features",
+    "filePath": "",
+    "downloadCount": 18900,
+    "isLatest": false
+  },
+  {
+    "appId": "chat-hub",
+    "version": "3.3.0",
+    "releaseDate": "2026-01-10",
+    "fileSize": "24.6 MB",
+    "minAndroid": "8.0",
+    "changelog": "• New platform support\n• Voice message improvements",
+    "filePath": "",
+    "downloadCount": 19800,
+    "isLatest": true
+  },
+  {
+    "appId": "chat-hub",
+    "version": "3.2.0",
+    "releaseDate": "2025-11-20",
+    "fileSize": "23.8 MB",
+    "minAndroid": "8.0",
+    "changelog": "• Group chat improvements\n• Sticker pack updates",
+    "filePath": "",
+    "downloadCount": 15200,
+    "isLatest": false
+  },
+  {
+    "appId": "media-converter",
+    "version": "5.2.0",
+    "releaseDate": "2026-02-20",
+    "fileSize": "31.5 MB",
+    "minAndroid": "8.0",
+    "changelog": "• HEVC support\n• Batch processing speedup",
+    "filePath": "",
+    "downloadCount": 14500,
+    "isLatest": true
+  },
+  {
+    "appId": "media-converter",
+    "version": "5.1.0",
+    "releaseDate": "2025-12-15",
+    "fileSize": "30.2 MB",
+    "minAndroid": "8.0",
+    "changelog": "• New output formats\n• UI improvements",
+    "filePath": "",
+    "downloadCount": 11200,
+    "isLatest": false
+  },
+  {
+    "appId": "finance-tracker",
+    "version": "2.8.0",
+    "releaseDate": "2026-03-01",
+    "fileSize": "15.4 MB",
+    "minAndroid": "8.0",
+    "changelog": "• Budget alerts\n• Export to CSV\n• Chart improvements",
+    "filePath": "",
+    "downloadCount": 13500,
+    "isLatest": true
+  },
+  {
+    "appId": "finance-tracker",
+    "version": "2.7.0",
+    "releaseDate": "2026-01-05",
+    "fileSize": "14.8 MB",
+    "minAndroid": "8.0",
+    "changelog": "• Multi-currency support\n• Bug fixes",
+    "filePath": "",
+    "downloadCount": 9800,
+    "isLatest": false
+  },
+  {
+    "appId": "learn-lang",
+    "version": "3.5.0",
+    "releaseDate": "2026-04-05",
+    "fileSize": "42.1 MB",
+    "minAndroid": "8.0",
+    "changelog": "• 5 new languages\n• Speech recognition improvements\n• Offline mode",
+    "filePath": "",
+    "downloadCount": 20100,
+    "isLatest": true
+  },
+  {
+    "appId": "learn-lang",
+    "version": "3.4.0",
+    "releaseDate": "2026-02-01",
+    "fileSize": "39.8 MB",
+    "minAndroid": "8.0",
+    "changelog": "• Grammar exercises\n• Progress tracking",
+    "filePath": "",
+    "downloadCount": 15800,
+    "isLatest": false
+  },
+  {
+    "appId": "mx-belgi",
+    "version": "1.0.0",
+    "releaseDate": "2026-04-14",
+    "fileSize": "71.2 MB",
+    "minAndroid": "8.0",
+    "changelog": "test",
+    "filePath": "/Users/torex.dev/AndroidStudioProjects/app-archive/backed/data/uploads/apks/f7437d478496.apk",
+    "downloadCount": 1,
+    "isLatest": false
+  },
+  {
+    "appId": "mx-belgi",
+    "version": "1.0.1",
+    "releaseDate": "2026-04-14",
+    "fileSize": "71.2 MB",
+    "minAndroid": "8.0",
+    "changelog": "test",
+    "filePath": "/Users/torex.dev/AndroidStudioProjects/app-archive/backed/data/uploads/apks/609fe0044358.apk",
+    "downloadCount": 1,
+    "isLatest": true
+  }
+]

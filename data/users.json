@@ -1,0 +1,32 @@
+[
+  {
+    "id": "admin-1",
+    "username": "admin",
+    "email": "admin@torexstore.uz",
+    "password": "$2b$12$70cTf2Hi2H1OnpheicV7m.VEA2d4tSqHHOtQcewGs9lFycGJcjLLG",
+    "role": "admin",
+    "displayName": "Admin User",
+    "avatar": null,
+    "createdAt": "2024-01-01"
+  },
+  {
+    "id": "publisher-1",
+    "username": "publisher1",
+    "email": "publisher1@torexstore.uz",
+    "password": "$2b$12$70cTf2Hi2H1OnpheicV7m.VEA2d4tSqHHOtQcewGs9lFycGJcjLLG",
+    "role": "publisher",
+    "displayName": "Ali Publisher",
+    "avatar": null,
+    "createdAt": "2024-06-15"
+  },
+  {
+    "id": "publisher-2",
+    "username": "publisher2",
+    "email": "publisher2@torexstore.uz",
+    "password": "$2b$12$70cTf2Hi2H1OnpheicV7m.VEA2d4tSqHHOtQcewGs9lFycGJcjLLG",
+    "role": "publisher",
+    "displayName": "Vali Karimov",
+    "avatar": null,
+    "createdAt": "2024-09-20"
+  }
+]

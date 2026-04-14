@@ -1,0 +1,195 @@
+[
+  {
+    "id": "vault-sync",
+    "name": "Vault Sync",
+    "icon": "uploads/icons/vault-sync.png",
+    "developer": "SecureApps Inc.",
+    "shortDescription": "End-to-end encrypted file synchronization across devices.",
+    "description": "Vault Sync provides military-grade encryption for your files with seamless synchronization across all your devices. Supports automatic backup, file versioning, and secure sharing.",
+    "category": "Security",
+    "tags": [
+      "encryption",
+      "sync",
+      "cloud",
+      "privacy"
+    ],
+    "screenshots": [
+      "uploads/screenshots/vault-sync-1.png",
+      "uploads/screenshots/vault-sync-2.png"
+    ],
+    "totalDownloads": 119500,
+    "published": true,
+    "createdBy": "admin-1",
+    "updatedAt": "2026-03-20",
+    "createdAt": "2024-06-15"
+  },
+  {
+    "id": "signal-vpn",
+    "name": "Signal VPN",
+    "icon": "uploads/icons/signal-vpn.png",
+    "developer": "SignalTech Ltd.",
+    "shortDescription": "Fast and secure VPN with global server network.",
+    "description": "Signal VPN offers blazing fast connection speeds with servers in 50+ countries. Features include split tunneling, kill switch, and zero-log policy.",
+    "category": "Security",
+    "tags": [
+      "vpn",
+      "privacy",
+      "network",
+      "proxy"
+    ],
+    "screenshots": [
+      "uploads/screenshots/signal-vpn-1.png"
+    ],
+    "totalDownloads": 89200,
+    "published": true,
+    "createdBy": "publisher-1",
+    "updatedAt": "2026-04-01",
+    "createdAt": "2024-08-10"
+  },
+  {
+    "id": "code-editor-pro",
+    "name": "Code Editor Pro",
+    "icon": "uploads/icons/code-editor-pro.png",
+    "developer": "DevTools Studio",
+    "shortDescription": "Professional code editor for Android with syntax highlighting.",
+    "description": "Code Editor Pro supports 100+ programming languages with intelligent autocomplete, Git integration, and terminal emulator.",
+    "category": "Development",
+    "tags": [
+      "code",
+      "editor",
+      "programming",
+      "ide"
+    ],
+    "screenshots": [],
+    "totalDownloads": 45600,
+    "published": true,
+    "createdBy": "publisher-1",
+    "updatedAt": "2026-02-28",
+    "createdAt": "2025-01-05"
+  },
+  {
+    "id": "task-flow",
+    "name": "Task Flow",
+    "icon": "uploads/icons/task-flow.png",
+    "developer": "Productivity Labs",
+    "shortDescription": "Smart task manager with AI-powered scheduling.",
+    "description": "Task Flow uses AI to optimize your daily schedule, set priorities, and track progress across multiple projects.",
+    "category": "Productivity",
+    "tags": [
+      "tasks",
+      "productivity",
+      "planner",
+      "ai"
+    ],
+    "screenshots": [],
+    "totalDownloads": 67300,
+    "published": true,
+    "createdBy": "publisher-2",
+    "updatedAt": "2026-03-15",
+    "createdAt": "2025-03-20"
+  },
+  {
+    "id": "chat-hub",
+    "name": "Chat Hub",
+    "icon": "uploads/icons/chat-hub.png",
+    "developer": "CommTech Solutions",
+    "shortDescription": "Unified messaging app for all platforms.",
+    "description": "Chat Hub consolidates all your messaging platforms into one clean interface with end-to-end encryption.",
+    "category": "Communication",
+    "tags": [
+      "chat",
+      "messaging",
+      "communication",
+      "social"
+    ],
+    "screenshots": [],
+    "totalDownloads": 53400,
+    "published": true,
+    "createdBy": "admin-1",
+    "updatedAt": "2026-01-10",
+    "createdAt": "2025-05-15"
+  },
+  {
+    "id": "media-converter",
+    "name": "Media Converter",
+    "icon": "uploads/icons/media-converter.png",
+    "developer": "MediaTools Inc.",
+    "shortDescription": "Convert any media format quickly and easily.",
+    "description": "Supports 200+ format conversions for video, audio, and images with batch processing capabilities.",
+    "category": "Media",
+    "tags": [
+      "converter",
+      "media",
+      "video",
+      "audio"
+    ],
+    "screenshots": [],
+    "totalDownloads": 41200,
+    "published": true,
+    "createdBy": "publisher-2",
+    "updatedAt": "2026-02-20",
+    "createdAt": "2025-07-01"
+  },
+  {
+    "id": "finance-tracker",
+    "name": "Finance Tracker",
+    "icon": "uploads/icons/finance-tracker.png",
+    "developer": "FinApp Solutions",
+    "shortDescription": "Personal finance management and expense tracking.",
+    "description": "Track expenses, create budgets, and get insights into your spending habits with beautiful charts and reports.",
+    "category": "Finance",
+    "tags": [
+      "finance",
+      "money",
+      "budget",
+      "expenses"
+    ],
+    "screenshots": [],
+    "totalDownloads": 38700,
+    "published": true,
+    "createdBy": "publisher-1",
+    "updatedAt": "2026-03-01",
+    "createdAt": "2025-04-10"
+  },
+  {
+    "id": "learn-lang",
+    "name": "Learn Lang",
+    "icon": "uploads/icons/learn-lang.png",
+    "developer": "EduTech Pro",
+    "shortDescription": "Interactive language learning with native speakers.",
+    "description": "Learn 30+ languages through interactive lessons, speech recognition, and conversations with native speakers.",
+    "category": "Education",
+    "tags": [
+      "language",
+      "learning",
+      "education",
+      "study"
+    ],
+    "screenshots": [],
+    "totalDownloads": 55500,
+    "published": true,
+    "createdBy": "admin-1",
+    "updatedAt": "2026-04-05",
+    "createdAt": "2025-02-01"
+  },
+  {
+    "id": "mx-belgi",
+    "name": "MX Belgi",
+    "icon": "uploads/icons/b40cf58f6894.png",
+    "developer": "Admin User",
+    "shortDescription": "MX Belgi Invertarizator",
+    "description": "MX Belgi Invertarizatsiyadan o'tkazuvchi ilova",
+    "category": "Utilities",
+    "tags": [
+      "test",
+      "belgi",
+      "mx belgi"
+    ],
+    "screenshots": [],
+    "totalDownloads": 2,
+    "published": true,
+    "createdBy": "admin-1",
+    "updatedAt": "2026-04-14",
+    "createdAt": "2026-04-14"
+  }
+]
