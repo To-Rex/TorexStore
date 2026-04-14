@@ -1,5 +1,6 @@
 from typing import Optional
 
+from config import CATEGORY_LABELS
 from repositories.app_repository import AppRepository
 from repositories.version_repository import VersionRepository
 from repositories.user_repository import UserRepository
@@ -35,6 +36,29 @@ class DashboardService:
                 }
             )
 
+        category_counts: dict[str, int] = {}
+        for app in apps:
+            cat = app.get("category", "Other")
+            label = CATEGORY_LABELS.get(cat, cat)
+            category_counts[label] = category_counts.get(label, 0) + 1
+        apps_by_category = [
+            {"name": name, "value": count}
+            for name, count in sorted(
+                category_counts.items(), key=lambda x: x[1], reverse=True
+            )
+        ]
+
+        top_apps = sorted(apps, key=lambda a: a.get("totalDownloads", 0), reverse=True)[
+            :8
+        ]
+        top_apps_by_downloads = [
+            {
+                "name": a["name"][:20] + ("..." if len(a["name"]) > 20 else ""),
+                "downloads": a.get("totalDownloads", 0),
+            }
+            for a in top_apps
+        ]
+
         return {
             "totalApps": len(apps),
             "publishedApps": len(published),
@@ -43,6 +67,8 @@ class DashboardService:
             "totalUsers": len(users),
             "totalPublishers": len(publishers),
             "recentApps": recent_list,
+            "appsByCategory": apps_by_category,
+            "topAppsByDownloads": top_apps_by_downloads,
         }
 
     @staticmethod
@@ -75,10 +101,35 @@ class DashboardService:
                 }
             )
 
+        category_counts: dict[str, int] = {}
+        for app in user_apps:
+            cat = app.get("category", "Other")
+            label = CATEGORY_LABELS.get(cat, cat)
+            category_counts[label] = category_counts.get(label, 0) + 1
+        apps_by_category = [
+            {"name": name, "value": count}
+            for name, count in sorted(
+                category_counts.items(), key=lambda x: x[1], reverse=True
+            )
+        ]
+
+        top_apps = sorted(
+            user_apps, key=lambda a: a.get("totalDownloads", 0), reverse=True
+        )[:8]
+        top_apps_by_downloads = [
+            {
+                "name": a["name"][:20] + ("..." if len(a["name"]) > 20 else ""),
+                "downloads": a.get("totalDownloads", 0),
+            }
+            for a in top_apps
+        ]
+
         return {
             "totalApps": len(user_apps),
             "publishedApps": len(published),
             "draftApps": len(draft),
             "totalDownloads": total_downloads,
             "recentApps": recent_list,
+            "appsByCategory": apps_by_category,
+            "topAppsByDownloads": top_apps_by_downloads,
         }

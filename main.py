@@ -7,7 +7,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
-from config import DATA_DIR, UPLOADS_DIR
+from config import DATA_DIR, UPLOADS_DIR, EXPORTS_DIR
 from routers import (
     auth,
     apps,
@@ -19,6 +19,7 @@ from routers import (
     upload,
     categories,
     stats,
+    data_export,
 )
 
 app = FastAPI(
@@ -34,19 +35,20 @@ ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",
     "https://torexstore-production.up.railway.app",
     "https://torexstore.netlify.app",
-    "https://torexstore.uz"
+    "https://torexstore.uz",
 ]
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=ALLOWED_ORIGINS,
-    #allow_origins=["*"],
+    # allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
 app.mount("/uploads", StaticFiles(directory=str(UPLOADS_DIR)), name="uploads")
+app.mount("/exports", StaticFiles(directory=str(EXPORTS_DIR)), name="exports")
 
 app.include_router(auth.router)
 app.include_router(apps.router)
@@ -58,6 +60,7 @@ app.include_router(admin_users.router)
 app.include_router(upload.router)
 app.include_router(categories.router)
 app.include_router(stats.router)
+app.include_router(data_export.router)
 
 
 @app.get("/api/v1/health")
