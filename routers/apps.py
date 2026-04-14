@@ -72,10 +72,13 @@ def download_version(app_id: str, version: str):
 
         p = Path(file_path)
         if p.exists():
+            app = AppService.get_by_id(app_id)
+            app_name = app["name"] if app else "App"
+            download_filename = f"{app_name} v{version}.apk"
             return FileResponse(
                 path=str(p),
                 media_type="application/vnd.android.package-archive",
-                filename=p.name,
+                filename=download_filename,
             )
 
     from config import BASE_URL
